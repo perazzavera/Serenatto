@@ -75,8 +75,7 @@ serenatto/
 - Ajuste as classes `botao-marrom` e `borda-marrom`
 
 ## 🌍 Acesso ao Projeto
-🔗 **GitHub Pages:** [https://perazzavera.github.io/Serenatto/](#) *(adicione seu link)*
-
+🔗 **GitHub Pages:** [Link de Deploy](https://perazzavera.github.io/Serenatto/) 
 ### 📥 Clone:
 ```bash
 git clone https://github.com/perazzavera/serenatto.git
