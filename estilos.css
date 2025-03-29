@@ -47,7 +47,11 @@ input[type="checkbox"]:focus {
 .banner-2,
 .banner-3 {
   background-repeat: no-repeat;
+<<<<<<< HEAD
   background-size: cover;
+=======
+  background-size: auto 100%; /* Ajusta a altura da imagem sem esticá-la */
+>>>>>>> 9a20cc5 (atualizando imagens de fundo)
   background-position: center;
   background-attachment: fixed;
 }
@@ -97,3 +101,16 @@ footer {
     --bs-body-color: #fff;
   }
 }
+<<<<<<< HEAD
+=======
+
+/* Ajuste para telas menores */
+@media (max-width: 768px) {
+  .banner-1,
+  .banner-2,
+  .banner-3 {
+    background-size: cover; /* Permite melhor adaptação sem distorção */
+    background-attachment: scroll; /* Remove o efeito fixo que pode causar cortes em mobile */
+  }
+}
+>>>>>>> 9a20cc5 (atualizando imagens de fundo)
