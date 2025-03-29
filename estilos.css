@@ -101,27 +101,39 @@ footer {
 @media (max-width: 768px) {
   .banner-1 {
     background-image: url("./assets/tablet/Banner1.png");
+    background-size: cover;
+    background-position: center;
   }
 
   .banner-2 {
     background-image: url("./assets/tablet/Banner2.png");
+    background-size: cover;
+    background-position: center;
   }
 
   .banner-3 {
     background-image: url("./assets/tablet/Banner3.png");
+    background-size: cover;
+    background-position: center;
   }
 }
 
 @media (max-width: 375px) {
   .banner-1 {
     background-image: url("./assets/mobile/Banner1.png");
+    background-size: cover;
+    background-position: center;
   }
 
   .banner-2 {
     background-image: url("./assets/mobile/Banner2.png");
+    background-size: cover;
+    background-position: center;
   }
 
   .banner-3 {
     background-image: url("./assets/mobile/Banner3.png");
+    background-size: cover;
+    background-position: center;
   }
 }
