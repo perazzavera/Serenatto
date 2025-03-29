@@ -4,6 +4,7 @@ body {
   --marrom-claro: #b29463;
   font-family: "Barlow", serif;
 }
+
 input[type="checkbox"] {
   border: 2px solid var(--marrom-claro);
   box-shadow: none;
@@ -86,54 +87,70 @@ footer {
 
 [data-bs-theme="dark"] {
   color: #fff;
-  .nav-link,
-  .card-body,
-  .offcanvas,
-  .accordion,
-  .btn {
-    --bs-nav-link-color: #fff;
-    --bs-card-color: #fff;
-    --bs-offcanvas-color: #fff;
-    --bs-body-color: #fff;
-  }
 }
 
+[data-bs-theme="dark"] .nav-link,
+[data-bs-theme="dark"] .card-body,
+[data-bs-theme="dark"] .offcanvas,
+[data-bs-theme="dark"] .accordion,
+[data-bs-theme="dark"] .btn {
+  --bs-nav-link-color: #fff;
+  --bs-card-color: #fff;
+  --bs-offcanvas-color: #fff;
+  --bs-body-color: #fff;
+}
+
+/* Responsividade */
 @media (max-width: 768px) {
-  .banner-1 {
-    background-image: url("./assets/tablet/Banner1.png");
+  /* Alterar comportamento do background-attachment */
+  .banner-1,
+  .banner-2,
+  .banner-3 {
+    background-attachment: scroll; /* Ajuste para o comportamento em dispositivos móveis */
     background-size: cover;
     background-position: center;
+  }
+
+  .banner-1 {
+    background-image: url("./assets/tablet/Banner1.png");
   }
 
   .banner-2 {
     background-image: url("./assets/tablet/Banner2.png");
-    background-size: cover;
-    background-position: center;
   }
 
   .banner-3 {
     background-image: url("./assets/tablet/Banner3.png");
-    background-size: cover;
-    background-position: center;
+  }
+
+  .banners {
+    height: 70vh; /* Ajuste a altura dos banners para tablets */
   }
 }
 
 @media (max-width: 375px) {
-  .banner-1 {
-    background-image: url("./assets/mobile/Banner1.png");
+  /* Alterar comportamento do background-attachment */
+  .banner-1,
+  .banner-2,
+  .banner-3 {
+    background-attachment: scroll;
     background-size: cover;
     background-position: center;
+  }
+
+  .banner-1 {
+    background-image: url("./assets/mobile/Banner1.png");
   }
 
   .banner-2 {
     background-image: url("./assets/mobile/Banner2.png");
-    background-size: cover;
-    background-position: center;
   }
 
   .banner-3 {
     background-image: url("./assets/mobile/Banner3.png");
-    background-size: cover;
-    background-position: center;
+  }
+
+  .banners {
+    height: 60vh; /* Ajuste a altura dos banners para dispositivos móveis */
   }
 }
