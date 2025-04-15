@@ -1,4 +1,4 @@
-# 📋 README - Café & Bistrô Serenatto
+# Café & Bistrô Serenatto
 
 ## 🌟 Sobre o Projeto
 Serenatto é um website responsivo para uma cafeteria/bistrô fictícia, desenvolvido como projeto prático do curso de Bootstrap 5 da Alura.
